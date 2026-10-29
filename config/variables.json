@@ -1,0 +1,150 @@
+{
+  "project": "A Computational Assessment of Social Sector Spending Across Indian States (2013-14 to 2025-26)",
+  "cag_social_services_major_heads": {
+    "education_sports_art_culture": ["2202", "2203", "2204", "2205", "4202"],
+    "health_family_welfare": ["2210", "2211", "4210", "4211"],
+    "water_supply_sanitation_housing_urban": ["2215", "2216", "2217", "4215", "4216", "4217"],
+    "information_broadcasting": ["2220", "4220"],
+    "sc_st_obc_welfare": ["2225", "4225"],
+    "labour_labour_welfare": ["2230", "4230"],
+    "social_security_welfare": ["2235", "4235"],
+    "nutrition": ["2236", "4236"],
+    "relief_natural_calamities": ["2245"],
+    "others_social_services": ["2250", "2251", "2252", "4250"]
+  },
+  "core_variables": [
+    {
+      "name": "SSE",
+      "description": "Total Social Sector Expenditure (Revenue Expenditure + Capital Outlay + Loans & Advances for Social Services)",
+      "unit": "₹ crore",
+      "type": "nominal"
+    },
+    {
+      "name": "SSE_REAL",
+      "description": "Total Social Sector Expenditure in constant (2011-12) prices using GSDP deflator",
+      "unit": "₹ crore",
+      "type": "real"
+    },
+    {
+      "name": "SSE_PC",
+      "description": "Real per capita social sector expenditure (SSE_REAL / Population)",
+      "unit": "₹ per person",
+      "type": "normalized"
+    },
+    {
+      "name": "SSE_GSDP",
+      "description": "Social sector expenditure as a percentage of Gross State Domestic Product",
+      "unit": "%",
+      "type": "ratio"
+    },
+    {
+      "name": "SSE_TE",
+      "description": "Social sector expenditure as a percentage of Total State Expenditure",
+      "unit": "%",
+      "type": "ratio"
+    },
+    {
+      "name": "EDU",
+      "description": "Expenditure on Education, Sports, Art and Culture (Major Heads 2202-2205, 4202)",
+      "unit": "₹ crore",
+      "type": "nominal"
+    },
+    {
+      "name": "HEA",
+      "description": "Expenditure on Health and Family Welfare (Major Heads 2210-2211, 4210-4211)",
+      "unit": "₹ crore",
+      "type": "nominal"
+    },
+    {
+      "name": "WSH",
+      "description": "Expenditure on Water Supply, Sanitation, Housing and Urban Development (Major Heads 2215-2217, 4215-4217)",
+      "unit": "₹ crore",
+      "type": "nominal"
+    },
+    {
+      "name": "SSW",
+      "description": "Expenditure on Social Security and Welfare (Major Heads 2235, 4235)",
+      "unit": "₹ crore",
+      "type": "nominal"
+    },
+    {
+      "name": "NUT",
+      "description": "Expenditure on Nutrition (Major Heads 2236, 4236)",
+      "unit": "₹ crore",
+      "type": "nominal"
+    },
+    {
+      "name": "SCST",
+      "description": "Expenditure on SC, ST, OBC and Minorities Welfare (Major Heads 2225, 4225)",
+      "unit": "₹ crore",
+      "type": "nominal"
+    },
+    {
+      "name": "BE_ACT",
+      "description": "Budget Execution Ratio: Actual Expenditure divided by Budget Estimate (SSE_ACT / SSE_BE)",
+      "unit": "ratio",
+      "type": "diagnostic"
+    },
+    {
+      "name": "SAV_EXC",
+      "description": "Savings (-) or Excess (+) over legislative grants in social sector appropriations",
+      "unit": "% of total grant",
+      "type": "audit_diagnostic"
+    },
+    {
+      "name": "OTR_GSDP",
+      "description": "Own Tax Revenue as % of GSDP (Measure of state fiscal effort)",
+      "unit": "%",
+      "type": "fiscal_capacity"
+    },
+    {
+      "name": "DEV_RR",
+      "description": "Central Transfers (Devolution + Grants-in-Aid) as % of Revenue Receipts",
+      "unit": "%",
+      "type": "fiscal_dependence"
+    },
+    {
+      "name": "FD_GSDP",
+      "description": "Gross Fiscal Deficit as % of GSDP",
+      "unit": "%",
+      "type": "fiscal_stance"
+    },
+    {
+      "name": "DEBT_GSDP",
+      "description": "Total Outstanding Liabilities as % of GSDP",
+      "unit": "%",
+      "type": "debt_burden"
+    },
+    {
+      "name": "IP_RR",
+      "description": "Interest Payments as % of Revenue Receipts",
+      "unit": "%",
+      "type": "debt_service_rigidity"
+    },
+    {
+      "name": "COVID",
+      "description": "COVID shock period dummy (1 for 2020-21 and 2021-22, 0 otherwise)",
+      "unit": "binary",
+      "type": "shock_indicator"
+    },
+    {
+      "name": "FC_PERIOD",
+      "description": "Finance Commission Cycle (14th FC: 2015-16 to 2019-20; 15th FC: 2020-21 to 2025-26)",
+      "unit": "categorical",
+      "type": "institutional_cycle"
+    },
+    {
+      "name": "IS_PROVISIONAL",
+      "description": "Flag indicating if the state-year uses revised/budget estimates rather than final audited CAG accounts",
+      "unit": "binary",
+      "type": "data_quality"
+    }
+  ],
+  "periods": [
+    {"name": "Full Period", "start_year": "2013-14", "end_year": "2025-26"},
+    {"name": "Pre-GST / 13th & Early 14th FC", "start_year": "2013-14", "end_year": "2016-17"},
+    {"name": "GST to Pre-COVID", "start_year": "2017-18", "end_year": "2019-20"},
+    {"name": "COVID-19 Shock", "start_year": "2020-21", "end_year": "2021-22"},
+    {"name": "Post-COVID Recovery & 15th FC", "start_year": "2022-23", "end_year": "2025-26"}
+  ]
+}

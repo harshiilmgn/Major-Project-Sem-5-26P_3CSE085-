@@ -1,0 +1,2433 @@
+{
+  "audit": {
+    "total_records": 403,
+    "valid_records": 403,
+    "records_with_flags": 0,
+    "pass_rate_pct": 100.0,
+    "log": []
+  },
+  "trends_sample": {
+    "MH": {
+      "state_name": "Maharashtra",
+      "category": "GCS",
+      "initial_val": 7769.1,
+      "final_val": 11693.34,
+      "cagr_full_pct": 3.47,
+      "cagr_pre_gst_pct": 4.96,
+      "cagr_gst_precovid_pct": 5.77,
+      "cagr_covid_pct": 0.01,
+      "cagr_post_covid_pct": 2.4,
+      "log_linear_growth_pct": 3.37,
+      "log_linear_r2": 0.7687,
+      "log_linear_p_value": 8e-05,
+      "mann_kendall_trend": "increasing",
+      "mann_kendall_tau": 0.667,
+      "mann_kendall_p": 0.00186,
+      "sens_slope": 312.09
+    },
+    "TN": {
+      "state_name": "Tamil Nadu",
+      "category": "GCS",
+      "initial_val": 8911.93,
+      "final_val": 12594.29,
+      "cagr_full_pct": 2.92,
+      "cagr_pre_gst_pct": 0.99,
+      "cagr_gst_precovid_pct": 8.26,
+      "cagr_covid_pct": -1.98,
+      "cagr_post_covid_pct": 3.0,
+      "log_linear_growth_pct": 3.21,
+      "log_linear_r2": 0.8509,
+      "log_linear_p_value": 1e-05,
+      "mann_kendall_trend": "increasing",
+      "mann_kendall_tau": 0.769,
+      "mann_kendall_p": 0.00032,
+      "sens_slope": 318.92
+    },
+    "GJ": {
+      "state_name": "Gujarat",
+      "category": "GCS",
+      "initial_val": 6932.45,
+      "final_val": 9276.63,
+      "cagr_full_pct": 2.46,
+      "cagr_pre_gst_pct": 3.42,
+      "cagr_gst_precovid_pct": 5.3,
+      "cagr_covid_pct": 3.96,
+      "cagr_post_covid_pct": -1.04,
+      "log_linear_growth_pct": 2.93,
+      "log_linear_r2": 0.8177,
+      "log_linear_p_value": 2e-05,
+      "mann_kendall_trend": "increasing",
+      "mann_kendall_tau": 0.769,
+      "mann_kendall_p": 0.00032,
+      "sens_slope": 222.85
+    },
+    "KA": {
+      "state_name": "Karnataka",
+      "category": "GCS",
+      "initial_val": 7362.39,
+      "final_val": 11284.86,
+      "cagr_full_pct": 3.62,
+      "cagr_pre_gst_pct": 1.95,
+      "cagr_gst_precovid_pct": 8.61,
+      "cagr_covid_pct": -4.4,
+      "cagr_post_covid_pct": 5.43,
+      "log_linear_growth_pct": 3.53,
+      "log_linear_r2": 0.7912,
+      "log_linear_p_value": 5e-05,
+      "mann_kendall_trend": "increasing",
+      "mann_kendall_tau": 0.769,
+      "mann_kendall_p": 0.00032,
+      "sens_slope": 305.98
+    },
+    "UP": {
+      "state_name": "Uttar Pradesh",
+      "category": "GCS",
+      "initial_val": 2162.32,
+      "final_val": 3273.09,
+      "cagr_full_pct": 3.51,
+      "cagr_pre_gst_pct": 9.57,
+      "cagr_gst_precovid_pct": 3.32,
+      "cagr_covid_pct": 1.77,
+      "cagr_post_covid_pct": 0.18,
+      "log_linear_growth_pct": 2.21,
+      "log_linear_r2": 0.5433,
+      "log_linear_p_value": 0.00405,
+      "mann_kendall_trend": "increasing",
+      "mann_kendall_tau": 0.641,
+      "mann_kendall_p": 0.00279,
+      "sens_slope": 49.35
+    }
+  },
+  "convergence": {
+    "metric": "sse_pc",
+    "sigma_convergence_by_year": {
+      "2013-14": {
+        "mean": 8328.954516129032,
+        "std": 4809.11235738006,
+        "cv": 0.5773968807330149
+      },
+      "2014-15": {
+        "mean": 8848.659999999998,
+        "std": 5000.99884715377,
+        "cv": 0.5651701892889738
+      },
+      "2015-16": {
+        "mean": 9717.905806451612,
+        "std": 5742.474111691913,
+        "cv": 0.5909168318836294
+      },
+      "2016-17": {
+        "mean": 10545.790645161289,
+        "std": 6589.3764377179805,
+        "cv": 0.6248347477617883
+      },
+      "2017-18": {
+        "mean": 11052.960645161293,
+        "std": 6634.298398597466,
+        "cv": 0.6002281751995375
+      },
+      "2018-19": {
+        "mean": 11621.795483870967,
+        "std": 7235.282556406412,
+        "cv": 0.622561510951361
+      },
+      "2019-20": {
+        "mean": 12387.08064516129,
+        "std": 7867.631391102805,
+        "cv": 0.6351481528600609
+      },
+      "2020-21": {
+        "mean": 11671.036129032256,
+        "std": 7228.951882497526,
+        "cv": 0.6193924688927288
+      },
+      "2021-22": {
+        "mean": 12037.693548387097,
+        "std": 7435.081583111938,
+        "cv": 0.6176500135367001
+      },
+      "2022-23": {
+        "mean": 11760.790967741936,
+        "std": 7483.078446196839,
+        "cv": 0.636273399189033
+      },
+      "2023-24": {
+        "mean": 12185.476451612902,
+        "std": 8096.9045848915,
+        "cv": 0.6644717272273561
+      },
+      "2024-25": {
+        "mean": 12941.42870967742,
+        "std": 8835.854171568151,
+        "cv": 0.6827572418616209
+      },
+      "2025-26": {
+        "mean": 13334.123548387099,
+        "std": 9204.625339260165,
+        "cv": 0.6903059886807154
+      }
+    },
+    "beta_convergence_full": {
+      "beta": 0.009147309212739372,
+      "r2": 0.17880684749687745,
+      "p_value": 0.01778817714533832,
+      "stderr": 0.0036401975050443882,
+      "speed_lambda": -0.008679226971006804,
+      "converging": false
+    },
+    "beta_convergence_audited_only": {
+      "beta": 0.006859852628587325,
+      "r2": 0.09861510684959228,
+      "p_value": 0.08535547567785044,
+      "stderr": 0.0038512277267145315,
+      "speed_lambda": -0.006634800143322123,
+      "converging": false
+    }
+  },
+  "composition_shifts": {
+    "sub_sectors": [
+      "edu",
+      "hea",
+      "wsh",
+      "ssw",
+      "nut",
+      "scst"
+    ],
+    "shares_2013_14": {
+      "edu": 39.31,
+      "hea": 14.01,
+      "wsh": 14.44,
+      "ssw": 16.09,
+      "nut": 5.15,
+      "scst": 6.0
+    },
+    "shares_2020_21_covid": {
+      "edu": 32.68,
+      "hea": 21.71,
+      "wsh": 10.96,
+      "ssw": 18.71,
+      "nut": 4.89,
+      "scst": 6.05
+    },
+    "shares_2025_26_terminal": {
+      "edu": 35.51,
+      "hea": 18.49,
+      "wsh": 14.45,
+      "ssw": 15.68,
+      "nut": 5.04,
+      "scst": 5.83
+    },
+    "dissimilarity_index_covid_shock": 0.1092,
+    "dissimilarity_index_postcovid_recovery": 0.0681,
+    "dissimilarity_index_overall_structural_shift": 0.0473
+  },
+  "cluster_evaluation": [
+    {
+      "k": 2,
+      "silhouette_score": 0.2795,
+      "calinski_harabasz_score": 13.85,
+      "davies_bouldin_score": 1.384
+    },
+    {
+      "k": 3,
+      "silhouette_score": 0.2546,
+      "calinski_harabasz_score": 10.33,
+      "davies_bouldin_score": 1.2077
+    },
+    {
+      "k": 4,
+      "silhouette_score": 0.1705,
+      "calinski_harabasz_score": 8.43,
+      "davies_bouldin_score": 1.4616
+    },
+    {
+      "k": 5,
+      "silhouette_score": 0.1719,
+      "calinski_harabasz_score": 8.11,
+      "davies_bouldin_score": 1.3941
+    },
+    {
+      "k": 6,
+      "silhouette_score": 0.1638,
+      "calinski_harabasz_score": 7.99,
+      "davies_bouldin_score": 1.3716
+    }
+  ],
+  "clusters": {
+    "algorithm": "kmeans",
+    "n_clusters": 2,
+    "silhouette_score": 0.2795,
+    "clusters": {
+      "0": {
+        "size": 17,
+        "states": [
+          "Andhra Pradesh",
+          "Chhattisgarh",
+          "Goa",
+          "Gujarat",
+          "Haryana",
+          "Karnataka",
+          "Kerala",
+          "Maharashtra",
+          "Madhya Pradesh",
+          "Odisha",
+          "Punjab",
+          "Puducherry",
+          "Rajasthan",
+          "Tamil Nadu",
+          "Telangana",
+          "Uttar Pradesh",
+          "West Bengal"
+        ],
+        "categories": [
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "UT_LEG",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS",
+          "GCS"
+        ],
+        "mean_metrics": {
+          "sse_pc_mean": 9005.29,
+          "sse_gsdp_mean": 6.94,
+          "sse_te_mean": 41.97,
+          "edu_share_mean": 36.81,
+          "hea_share_mean": 17.01,
+          "wsh_share_mean": 14.18,
+          "otr_gsdp_mean": 6.71,
+          "dev_rr_mean": 33.8,
+          "be_act_mean": 0.94
+        }
+      },
+      "1": {
+        "size": 14,
+        "states": [
+          "Arunachal Pradesh",
+          "Assam",
+          "Bihar",
+          "Delhi",
+          "Himachal Pradesh",
+          "Jharkhand",
+          "Jammu & Kashmir",
+          "Meghalaya",
+          "Manipur",
+          "Mizoram",
+          "Nagaland",
+          "Sikkim",
+          "Tripura",
+          "Uttarakhand"
+        ],
+        "categories": [
+          "SCS",
+          "SCS",
+          "GCS",
+          "UT_LEG",
+          "SCS",
+          "GCS",
+          "SCS",
+          "SCS",
+          "SCS",
+          "SCS",
+          "SCS",
+          "SCS",
+          "SCS",
+          "SCS"
+        ],
+        "mean_metrics": {
+          "sse_pc_mean": 14007.01,
+          "sse_gsdp_mean": 11.73,
+          "sse_te_mean": 45.52,
+          "edu_share_mean": 36.95,
+          "hea_share_mean": 16.81,
+          "wsh_share_mean": 14.14,
+          "otr_gsdp_mean": 4.41,
+          "dev_rr_mean": 66.92,
+          "be_act_mean": 0.88
+        }
+      }
+    },
+    "kruskal_wallis_tests": {
+      "sse_pc_mean": {
+        "h_stat": 3.481,
+        "p_value": 0.06209,
+        "significant": false
+      },
+      "sse_gsdp_mean": {
+        "h_stat": 18.378,
+        "p_value": 2e-05,
+        "significant": true
+      },
+      "sse_te_mean": {
+        "h_stat": 5.486,
+        "p_value": 0.01917,
+        "significant": true
+      },
+      "edu_share_mean": {
+        "h_stat": 2.16,
+        "p_value": 0.14164,
+        "significant": false
+      },
+      "hea_share_mean": {
+        "h_stat": 3.559,
+        "p_value": 0.05924,
+        "significant": false
+      },
+      "wsh_share_mean": {
+        "h_stat": 0.209,
+        "p_value": 0.64788,
+        "significant": false
+      },
+      "otr_gsdp_mean": {
+        "h_stat": 13.922,
+        "p_value": 0.00019,
+        "significant": true
+      },
+      "dev_rr_mean": {
+        "h_stat": 14.825,
+        "p_value": 0.00012,
+        "significant": true
+      },
+      "be_act_mean": {
+        "h_stat": 19.869,
+        "p_value": 1e-05,
+        "significant": true
+      }
+    }
+  },
+  "anomaly_register_count": 114,
+  "anomaly_register": [
+    {
+      "state_code": "AP",
+      "state_name": "Andhra Pradesh",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (State Reorganisation)",
+      "context_explanation": "Andhra Pradesh Reorganisation Act 2014 transitional restructuring, asset/liability apportionment and administrative bifurcation.",
+      "audit_recommendation": "Verify apportionment schedules in Combined Finance Accounts and AG reconciliation certificates.",
+      "metrics_summary": {
+        "sse_pc": 6759.87,
+        "sse_gsdp": 7.0,
+        "be_act": 0.78,
+        "sav_exc_pct": -22.4,
+        "hea_share": 14.51
+      }
+    },
+    {
+      "state_code": "AP",
+      "state_name": "Andhra Pradesh",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 8111.67,
+        "sse_gsdp": 6.63,
+        "be_act": 0.8251,
+        "sav_exc_pct": -19.02,
+        "hea_share": 16.07
+      }
+    },
+    {
+      "state_code": "AR",
+      "state_name": "Arunachal Pradesh",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 81.2%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 10925.63,
+        "sse_gsdp": 11.87,
+        "be_act": 0.8118,
+        "sav_exc_pct": -20.69,
+        "hea_share": 13.81
+      }
+    },
+    {
+      "state_code": "AR",
+      "state_name": "Arunachal Pradesh",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 13900.19,
+        "sse_gsdp": 12.78,
+        "be_act": 0.8697,
+        "sav_exc_pct": -15.04,
+        "hea_share": 13.58
+      }
+    },
+    {
+      "state_code": "AR",
+      "state_name": "Arunachal Pradesh",
+      "fiscal_year": "2023-24",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 18387.47,
+        "sse_gsdp": 13.26,
+        "be_act": 0.8675,
+        "sav_exc_pct": -15.07,
+        "hea_share": 17.24
+      }
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 5465.71,
+        "sse_gsdp": 11.24,
+        "be_act": 0.8479,
+        "sav_exc_pct": -15.21,
+        "hea_share": 15.55
+      }
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6147.89,
+        "sse_gsdp": 12.06,
+        "be_act": 0.9025,
+        "sav_exc_pct": -10.56,
+        "hea_share": 13.68
+      }
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6980.38,
+        "sse_gsdp": 13.0,
+        "be_act": 0.8597,
+        "sav_exc_pct": -17.72,
+        "hea_share": 14.52
+      }
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 7107.67,
+        "sse_gsdp": 12.82,
+        "be_act": 0.8645,
+        "sav_exc_pct": -15.87,
+        "hea_share": 16.21
+      }
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6843.29,
+        "sse_gsdp": 12.08,
+        "be_act": 0.8308,
+        "sav_exc_pct": -17.16,
+        "hea_share": 14.02
+      }
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 7319.49,
+        "sse_gsdp": 12.95,
+        "be_act": 0.8521,
+        "sav_exc_pct": -17.13,
+        "hea_share": 17.33
+      }
+    },
+    {
+      "state_code": "AS",
+      "state_name": "Assam",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6986.46,
+        "sse_gsdp": 13.14,
+        "be_act": 0.8565,
+        "sav_exc_pct": -15.99,
+        "hea_share": 17.81
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 1912.41,
+        "sse_gsdp": 6.91,
+        "be_act": 0.8399,
+        "sav_exc_pct": -18.1,
+        "hea_share": 13.14
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 80.6%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 2308.97,
+        "sse_gsdp": 7.68,
+        "be_act": 0.806,
+        "sav_exc_pct": -20.46,
+        "hea_share": 14.77
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 78.2%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 2285.55,
+        "sse_gsdp": 7.26,
+        "be_act": 0.7817,
+        "sav_exc_pct": -24.45,
+        "hea_share": 14.83
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 2521.57,
+        "sse_gsdp": 7.75,
+        "be_act": 0.8481,
+        "sav_exc_pct": -16.66,
+        "hea_share": 15.29
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Statistical (MAD), Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 2008.56,
+        "sse_gsdp": 6.97,
+        "be_act": 0.8583,
+        "sav_exc_pct": -15.6,
+        "hea_share": 20.96
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2021-22",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 2435.29,
+        "sse_gsdp": 8.17,
+        "be_act": 0.8133,
+        "sav_exc_pct": -19.15,
+        "hea_share": 22.36
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 2347.66,
+        "sse_gsdp": 7.85,
+        "be_act": 0.8366,
+        "sav_exc_pct": -17.27,
+        "hea_share": 17.34
+      }
+    },
+    {
+      "state_code": "BR",
+      "state_name": "Bihar",
+      "fiscal_year": "2023-24",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 2332.53,
+        "sse_gsdp": 7.76,
+        "be_act": 0.8605,
+        "sav_exc_pct": -15.15,
+        "hea_share": 15.86
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 79.8%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 18616.18,
+        "sse_gsdp": 8.73,
+        "be_act": 0.7978,
+        "sav_exc_pct": -22.08,
+        "hea_share": 13.86
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 17815.49,
+        "sse_gsdp": 7.68,
+        "be_act": 0.8454,
+        "sav_exc_pct": -15.76,
+        "hea_share": 13.7
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Statistical (MAD), Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 22527.28,
+        "sse_gsdp": 8.58,
+        "be_act": 0.8409,
+        "sav_exc_pct": -18.0,
+        "hea_share": 13.57
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 28062.66,
+        "sse_gsdp": 9.88,
+        "be_act": 0.8347,
+        "sav_exc_pct": -19.82,
+        "hea_share": 14.41
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 28716.04,
+        "sse_gsdp": 8.55,
+        "be_act": 0.8605,
+        "sav_exc_pct": -16.28,
+        "hea_share": 13.53
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 27250.8,
+        "sse_gsdp": 8.68,
+        "be_act": 0.8151,
+        "sav_exc_pct": -19.35,
+        "hea_share": 21.25
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2021-22",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 27101.0,
+        "sse_gsdp": 8.3,
+        "be_act": 0.8941,
+        "sav_exc_pct": -14.4,
+        "hea_share": 22.27
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 29724.4,
+        "sse_gsdp": 8.49,
+        "be_act": 0.8233,
+        "sav_exc_pct": -20.66,
+        "hea_share": 17.38
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2023-24",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 33807.88,
+        "sse_gsdp": 9.02,
+        "be_act": 0.9447,
+        "sav_exc_pct": -6.9,
+        "hea_share": 16.63
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 36911.78,
+        "sse_gsdp": 9.3,
+        "be_act": 0.8501,
+        "sav_exc_pct": -14.87,
+        "hea_share": 18.04
+      }
+    },
+    {
+      "state_code": "DL",
+      "state_name": "Delhi",
+      "fiscal_year": "2025-26",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 38965.52,
+        "sse_gsdp": 9.27,
+        "be_act": 0.9361,
+        "sav_exc_pct": -9.11,
+        "hea_share": 18.7
+      }
+    },
+    {
+      "state_code": "GA",
+      "state_name": "Goa",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 20809.53,
+        "sse_gsdp": 6.43,
+        "be_act": 0.8497,
+        "sav_exc_pct": -15.96,
+        "hea_share": 17.24
+      }
+    },
+    {
+      "state_code": "GA",
+      "state_name": "Goa",
+      "fiscal_year": "2025-26",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 27596.18,
+        "sse_gsdp": 7.07,
+        "be_act": 1.0076,
+        "sav_exc_pct": -0.54,
+        "hea_share": 19.4
+      }
+    },
+    {
+      "state_code": "GJ",
+      "state_name": "Gujarat",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 8862.19,
+        "sse_gsdp": 6.2,
+        "be_act": 0.8585,
+        "sav_exc_pct": -16.66,
+        "hea_share": 16.79
+      }
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 79.4%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 14857.96,
+        "sse_gsdp": 12.32,
+        "be_act": 0.7944,
+        "sav_exc_pct": -22.47,
+        "hea_share": 12.79
+      }
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 18738.58,
+        "sse_gsdp": 11.92,
+        "be_act": 0.8711,
+        "sav_exc_pct": -16.36,
+        "hea_share": 13.09
+      }
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 20915.91,
+        "sse_gsdp": 12.35,
+        "be_act": 0.8648,
+        "sav_exc_pct": -15.51,
+        "hea_share": 15.66
+      }
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 22209.88,
+        "sse_gsdp": 11.88,
+        "be_act": 0.8624,
+        "sav_exc_pct": -15.05,
+        "hea_share": 13.72
+      }
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 23532.32,
+        "sse_gsdp": 14.13,
+        "be_act": 0.8492,
+        "sav_exc_pct": -16.37,
+        "hea_share": 21.55
+      }
+    },
+    {
+      "state_code": "HP",
+      "state_name": "Himachal Pradesh",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 81.4%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 24816.77,
+        "sse_gsdp": 13.35,
+        "be_act": 0.8144,
+        "sav_exc_pct": -20.51,
+        "hea_share": 17.0
+      }
+    },
+    {
+      "state_code": "HR",
+      "state_name": "Haryana",
+      "fiscal_year": "2025-26",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 10534.38,
+        "sse_gsdp": 6.33,
+        "be_act": 0.8548,
+        "sav_exc_pct": -15.25,
+        "hea_share": 17.89
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 3581.77,
+        "sse_gsdp": 7.0,
+        "be_act": 0.8601,
+        "sav_exc_pct": -15.69,
+        "hea_share": 12.61
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 3674.92,
+        "sse_gsdp": 6.69,
+        "be_act": 0.8485,
+        "sav_exc_pct": -18.38,
+        "hea_share": 15.12
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 4092.23,
+        "sse_gsdp": 6.87,
+        "be_act": 0.8215,
+        "sav_exc_pct": -19.46,
+        "hea_share": 12.86
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 3891.78,
+        "sse_gsdp": 6.28,
+        "be_act": 0.8222,
+        "sav_exc_pct": -20.43,
+        "hea_share": 14.82
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 77.5%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 4884.88,
+        "sse_gsdp": 7.45,
+        "be_act": 0.7748,
+        "sav_exc_pct": -23.31,
+        "hea_share": 17.0
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 80.3%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 5086.9,
+        "sse_gsdp": 7.45,
+        "be_act": 0.8029,
+        "sav_exc_pct": -19.54,
+        "hea_share": 15.35
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 4477.32,
+        "sse_gsdp": 7.38,
+        "be_act": 0.8161,
+        "sav_exc_pct": -18.64,
+        "hea_share": 19.88
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 4259.73,
+        "sse_gsdp": 6.68,
+        "be_act": 0.8215,
+        "sav_exc_pct": -18.16,
+        "hea_share": 17.14
+      }
+    },
+    {
+      "state_code": "JH",
+      "state_name": "Jharkhand",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 4820.37,
+        "sse_gsdp": 7.2,
+        "be_act": 0.8385,
+        "sav_exc_pct": -16.23,
+        "hea_share": 19.0
+      }
+    },
+    {
+      "state_code": "JK",
+      "state_name": "Jammu & Kashmir",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 10630.27,
+        "sse_gsdp": 12.07,
+        "be_act": 0.8662,
+        "sav_exc_pct": -15.49,
+        "hea_share": 14.16
+      }
+    },
+    {
+      "state_code": "JK",
+      "state_name": "Jammu & Kashmir",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 11711.79,
+        "sse_gsdp": 13.19,
+        "be_act": 0.8357,
+        "sav_exc_pct": -18.38,
+        "hea_share": 19.57
+      }
+    },
+    {
+      "state_code": "JK",
+      "state_name": "Jammu & Kashmir",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 12599.26,
+        "sse_gsdp": 12.25,
+        "be_act": 0.8539,
+        "sav_exc_pct": -15.3,
+        "hea_share": 19.04
+      }
+    },
+    {
+      "state_code": "KL",
+      "state_name": "Kerala",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "A: Event-Explained (Natural Calamity - Kerala Floods)",
+      "context_explanation": "Century flood disaster necessitated massive immediate relief and emergency rehabilitation spending under Head 2245.",
+      "audit_recommendation": "Audit State Disaster Response Fund (SDRF) drawdown and emergency reconstruction appropriations.",
+      "metrics_summary": {
+        "sse_pc": 13762.8,
+        "sse_gsdp": 8.18,
+        "be_act": 1.08,
+        "sav_exc_pct": 6.8,
+        "hea_share": 14.02
+      }
+    },
+    {
+      "state_code": "KL",
+      "state_name": "Kerala",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 13259.41,
+        "sse_gsdp": 8.56,
+        "be_act": 0.9885,
+        "sav_exc_pct": -0.63,
+        "hea_share": 24.36
+      }
+    },
+    {
+      "state_code": "KL",
+      "state_name": "Kerala",
+      "fiscal_year": "2021-22",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 13058.77,
+        "sse_gsdp": 8.09,
+        "be_act": 1.0294,
+        "sav_exc_pct": 1.79,
+        "hea_share": 24.21
+      }
+    },
+    {
+      "state_code": "ML",
+      "state_name": "Meghalaya",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 11732.96,
+        "sse_gsdp": 14.45,
+        "be_act": 0.8515,
+        "sav_exc_pct": -15.66,
+        "hea_share": 21.82
+      }
+    },
+    {
+      "state_code": "ML",
+      "state_name": "Meghalaya",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 11993.49,
+        "sse_gsdp": 13.17,
+        "be_act": 0.8354,
+        "sav_exc_pct": -17.26,
+        "hea_share": 16.89
+      }
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 5849.36,
+        "sse_gsdp": 11.93,
+        "be_act": 0.851,
+        "sav_exc_pct": -15.75,
+        "hea_share": 14.15
+      }
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 5715.76,
+        "sse_gsdp": 11.04,
+        "be_act": 0.864,
+        "sav_exc_pct": -17.19,
+        "hea_share": 14.56
+      }
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6612.97,
+        "sse_gsdp": 11.82,
+        "be_act": 0.8617,
+        "sav_exc_pct": -15.59,
+        "hea_share": 13.31
+      }
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 8065.41,
+        "sse_gsdp": 12.98,
+        "be_act": 0.8559,
+        "sav_exc_pct": -15.43,
+        "hea_share": 19.66
+      }
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "fiscal_year": "2021-22",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 8767.74,
+        "sse_gsdp": 13.58,
+        "be_act": 0.8452,
+        "sav_exc_pct": -16.31,
+        "hea_share": 21.12
+      }
+    },
+    {
+      "state_code": "MN",
+      "state_name": "Manipur",
+      "fiscal_year": "2025-26",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 10198.73,
+        "sse_gsdp": 13.58,
+        "be_act": 0.8488,
+        "sav_exc_pct": -16.74,
+        "hea_share": 17.12
+      }
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 13359.84,
+        "sse_gsdp": 13.39,
+        "be_act": 0.8659,
+        "sav_exc_pct": -15.54,
+        "hea_share": 15.51
+      }
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 14169.17,
+        "sse_gsdp": 13.39,
+        "be_act": 0.8649,
+        "sav_exc_pct": -15.29,
+        "hea_share": 14.71
+      }
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 16284.8,
+        "sse_gsdp": 14.54,
+        "be_act": 0.8615,
+        "sav_exc_pct": -15.73,
+        "hea_share": 16.42
+      }
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 13939.16,
+        "sse_gsdp": 13.98,
+        "be_act": 0.8347,
+        "sav_exc_pct": -18.51,
+        "hea_share": 21.08
+      }
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "fiscal_year": "2021-22",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 15339.07,
+        "sse_gsdp": 14.8,
+        "be_act": 0.8404,
+        "sav_exc_pct": -18.96,
+        "hea_share": 22.52
+      }
+    },
+    {
+      "state_code": "MZ",
+      "state_name": "Mizoram",
+      "fiscal_year": "2023-24",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 15490.18,
+        "sse_gsdp": 14.56,
+        "be_act": 0.8511,
+        "sav_exc_pct": -15.98,
+        "hea_share": 17.26
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 9196.6,
+        "sse_gsdp": 12.17,
+        "be_act": 0.8656,
+        "sav_exc_pct": -17.16,
+        "hea_share": 13.75
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 9604.37,
+        "sse_gsdp": 11.72,
+        "be_act": 0.8237,
+        "sav_exc_pct": -19.18,
+        "hea_share": 14.05
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 80.9%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 11406.48,
+        "sse_gsdp": 12.1,
+        "be_act": 0.8087,
+        "sav_exc_pct": -21.07,
+        "hea_share": 15.32
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 12613.38,
+        "sse_gsdp": 12.74,
+        "be_act": 0.8432,
+        "sav_exc_pct": -17.99,
+        "hea_share": 17.07
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 12745.86,
+        "sse_gsdp": 12.49,
+        "be_act": 0.8445,
+        "sav_exc_pct": -17.48,
+        "hea_share": 16.43
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 13206.33,
+        "sse_gsdp": 12.57,
+        "be_act": 0.858,
+        "sav_exc_pct": -15.6,
+        "hea_share": 16.36
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 12313.18,
+        "sse_gsdp": 13.16,
+        "be_act": 0.8215,
+        "sav_exc_pct": -21.18,
+        "hea_share": 19.69
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 79.5%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 12461.09,
+        "sse_gsdp": 12.33,
+        "be_act": 0.7948,
+        "sav_exc_pct": -22.46,
+        "hea_share": 16.89
+      }
+    },
+    {
+      "state_code": "NL",
+      "state_name": "Nagaland",
+      "fiscal_year": "2025-26",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 81.9%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 13302.56,
+        "sse_gsdp": 12.62,
+        "be_act": 0.8194,
+        "sav_exc_pct": -20.69,
+        "hea_share": 18.03
+      }
+    },
+    {
+      "state_code": "OD",
+      "state_name": "Odisha",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 5311.54,
+        "sse_gsdp": 7.15,
+        "be_act": 0.8613,
+        "sav_exc_pct": -16.49,
+        "hea_share": 18.33
+      }
+    },
+    {
+      "state_code": "PB",
+      "state_name": "Punjab",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6084.29,
+        "sse_gsdp": 5.42,
+        "be_act": 0.9568,
+        "sav_exc_pct": -5.21,
+        "hea_share": 14.0
+      }
+    },
+    {
+      "state_code": "PB",
+      "state_name": "Punjab",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6354.45,
+        "sse_gsdp": 5.48,
+        "be_act": 0.9313,
+        "sav_exc_pct": -8.68,
+        "hea_share": 15.93
+      }
+    },
+    {
+      "state_code": "PB",
+      "state_name": "Punjab",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6276.59,
+        "sse_gsdp": 5.07,
+        "be_act": 0.9531,
+        "sav_exc_pct": -5.26,
+        "hea_share": 17.07
+      }
+    },
+    {
+      "state_code": "PY",
+      "state_name": "Puducherry",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 12263.89,
+        "sse_gsdp": 8.05,
+        "be_act": 0.8665,
+        "sav_exc_pct": -16.48,
+        "hea_share": 14.15
+      }
+    },
+    {
+      "state_code": "PY",
+      "state_name": "Puducherry",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 13897.4,
+        "sse_gsdp": 7.69,
+        "be_act": 0.8542,
+        "sav_exc_pct": -17.42,
+        "hea_share": 13.9
+      }
+    },
+    {
+      "state_code": "PY",
+      "state_name": "Puducherry",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 14364.44,
+        "sse_gsdp": 7.72,
+        "be_act": 0.8552,
+        "sav_exc_pct": -15.91,
+        "hea_share": 14.3
+      }
+    },
+    {
+      "state_code": "RJ",
+      "state_name": "Rajasthan",
+      "fiscal_year": "2013-14",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 4717.28,
+        "sse_gsdp": 6.75,
+        "be_act": 0.8603,
+        "sav_exc_pct": -15.1,
+        "hea_share": 14.16
+      }
+    },
+    {
+      "state_code": "RJ",
+      "state_name": "Rajasthan",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6299.63,
+        "sse_gsdp": 8.06,
+        "be_act": 0.9086,
+        "sav_exc_pct": -11.98,
+        "hea_share": 14.72
+      }
+    },
+    {
+      "state_code": "RJ",
+      "state_name": "Rajasthan",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6185.28,
+        "sse_gsdp": 7.35,
+        "be_act": 0.9133,
+        "sav_exc_pct": -9.18,
+        "hea_share": 14.94
+      }
+    },
+    {
+      "state_code": "RJ",
+      "state_name": "Rajasthan",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6469.49,
+        "sse_gsdp": 7.21,
+        "be_act": 0.9315,
+        "sav_exc_pct": -6.86,
+        "hea_share": 14.89
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "B: Execution Bottleneck (Severe Underspending)",
+      "context_explanation": "Significant shortfall against budget estimate (Execution rate 78.8%); persistent unspent balances.",
+      "audit_recommendation": "Examine procedural delays in administrative sanctions, delays in central release matching shares, and quarterly lapse patterns.",
+      "metrics_summary": {
+        "sse_pc": 25069.52,
+        "sse_gsdp": 12.38,
+        "be_act": 0.7879,
+        "sav_exc_pct": -22.88,
+        "hea_share": 13.75
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 30738.53,
+        "sse_gsdp": 12.54,
+        "be_act": 0.8309,
+        "sav_exc_pct": -18.9,
+        "hea_share": 15.2
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 33809.71,
+        "sse_gsdp": 12.66,
+        "be_act": 0.8701,
+        "sav_exc_pct": -15.45,
+        "hea_share": 18.17
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 35641.12,
+        "sse_gsdp": 12.46,
+        "be_act": 0.911,
+        "sav_exc_pct": -10.8,
+        "hea_share": 16.15
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2021-22",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 36425.86,
+        "sse_gsdp": 13.76,
+        "be_act": 0.8414,
+        "sav_exc_pct": -19.57,
+        "hea_share": 19.65
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 35707.21,
+        "sse_gsdp": 12.98,
+        "be_act": 0.8503,
+        "sav_exc_pct": -16.45,
+        "hea_share": 16.71
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2023-24",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 36890.87,
+        "sse_gsdp": 12.88,
+        "be_act": 0.8767,
+        "sav_exc_pct": -14.34,
+        "hea_share": 16.58
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Machine Learning (IsoForest/LOF), Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 39843.65,
+        "sse_gsdp": 13.34,
+        "be_act": 0.8566,
+        "sav_exc_pct": -15.54,
+        "hea_share": 17.78
+      }
+    },
+    {
+      "state_code": "SK",
+      "state_name": "Sikkim",
+      "fiscal_year": "2025-26",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 40612.84,
+        "sse_gsdp": 13.27,
+        "be_act": 0.8938,
+        "sav_exc_pct": -13.75,
+        "hea_share": 19.92
+      }
+    },
+    {
+      "state_code": "TR",
+      "state_name": "Tripura",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 9191.51,
+        "sse_gsdp": 12.33,
+        "be_act": 0.8466,
+        "sav_exc_pct": -15.59,
+        "hea_share": 16.26
+      }
+    },
+    {
+      "state_code": "TR",
+      "state_name": "Tripura",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 9212.02,
+        "sse_gsdp": 13.26,
+        "be_act": 0.8422,
+        "sav_exc_pct": -18.24,
+        "hea_share": 16.61
+      }
+    },
+    {
+      "state_code": "TR",
+      "state_name": "Tripura",
+      "fiscal_year": "2023-24",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 9917.41,
+        "sse_gsdp": 14.04,
+        "be_act": 0.8535,
+        "sav_exc_pct": -16.57,
+        "hea_share": 17.92
+      }
+    },
+    {
+      "state_code": "UK",
+      "state_name": "Uttarakhand",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 17699.4,
+        "sse_gsdp": 11.56,
+        "be_act": 0.8345,
+        "sav_exc_pct": -19.65,
+        "hea_share": 15.61
+      }
+    },
+    {
+      "state_code": "UK",
+      "state_name": "Uttarakhand",
+      "fiscal_year": "2022-23",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 17845.43,
+        "sse_gsdp": 11.57,
+        "be_act": 0.8287,
+        "sav_exc_pct": -18.83,
+        "hea_share": 16.57
+      }
+    },
+    {
+      "state_code": "UK",
+      "state_name": "Uttarakhand",
+      "fiscal_year": "2024-25",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 20756.03,
+        "sse_gsdp": 12.62,
+        "be_act": 0.8334,
+        "sav_exc_pct": -17.94,
+        "hea_share": 19.39
+      }
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "fiscal_year": "2015-16",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 2924.06,
+        "sse_gsdp": 6.88,
+        "be_act": 0.8429,
+        "sav_exc_pct": -18.01,
+        "hea_share": 13.9
+      }
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "fiscal_year": "2017-18",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 3197.92,
+        "sse_gsdp": 6.83,
+        "be_act": 0.8511,
+        "sav_exc_pct": -15.11,
+        "hea_share": 15.14
+      }
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "fiscal_year": "2018-19",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 3126.92,
+        "sse_gsdp": 6.32,
+        "be_act": 0.8321,
+        "sav_exc_pct": -18.09,
+        "hea_share": 15.48
+      }
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "fiscal_year": "2019-20",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 3137.65,
+        "sse_gsdp": 6.31,
+        "be_act": 0.8676,
+        "sav_exc_pct": -15.24,
+        "hea_share": 17.49
+      }
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "fiscal_year": "2020-21",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 3205.36,
+        "sse_gsdp": 7.28,
+        "be_act": 0.8597,
+        "sav_exc_pct": -15.77,
+        "hea_share": 21.88
+      }
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "fiscal_year": "2021-22",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "A: Event-Explained (COVID-19 Pandemic)",
+      "context_explanation": "National emergency reallocation: Health and social relief expenditure surged sharply while urban/capital works stalled.",
+      "audit_recommendation": "Reconcile emergency procurement accounts against State Disaster Response Fund (SDRF) / PM-CARES allocations.",
+      "metrics_summary": {
+        "sse_pc": 3249.61,
+        "sse_gsdp": 7.14,
+        "be_act": 0.8464,
+        "sav_exc_pct": -15.42,
+        "hea_share": 21.58
+      }
+    },
+    {
+      "state_code": "UP",
+      "state_name": "Uttar Pradesh",
+      "fiscal_year": "2025-26",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 3273.09,
+        "sse_gsdp": 6.91,
+        "be_act": 0.8745,
+        "sav_exc_pct": -15.07,
+        "hea_share": 17.38
+      }
+    },
+    {
+      "state_code": "WB",
+      "state_name": "West Bengal",
+      "fiscal_year": "2014-15",
+      "detection_methods": "Budget Execution Shortfall/Excess",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 5039.82,
+        "sse_gsdp": 6.85,
+        "be_act": 0.8261,
+        "sav_exc_pct": -17.75,
+        "hea_share": 13.4
+      }
+    },
+    {
+      "state_code": "WB",
+      "state_name": "West Bengal",
+      "fiscal_year": "2016-17",
+      "detection_methods": "Machine Learning (IsoForest/LOF)",
+      "triangulation_category": "C: Statistical Outlier (CAG Audit Follow-up)",
+      "context_explanation": "Unusual departure from peer trajectory without immediate macro explanation.",
+      "audit_recommendation": "Review Detailed Appropriation Accounts and scheme-wise surrender orders.",
+      "metrics_summary": {
+        "sse_pc": 6163.91,
+        "sse_gsdp": 7.19,
+        "be_act": 0.9421,
+        "sav_exc_pct": -6.56,
+        "hea_share": 15.24
+      }
+    }
+  ],
+  "econometric_models": {
+    "ln_sse_pc": {
+      "dep_var": "ln_sse_pc",
+      "sample_size": 403,
+      "num_states": 31,
+      "num_regressors": 5,
+      "within_r2": 0.8828,
+      "fixed_effects_results": [
+        {
+          "variable": "ln_gsdp_pc",
+          "coef": 1.1823,
+          "std_err": 0.0297,
+          "t_stat": 39.742,
+          "p_value": 0.0,
+          "significance": "***"
+        },
+        {
+          "variable": "otr_gsdp",
+          "coef": -0.0151,
+          "std_err": 0.0084,
+          "t_stat": -1.794,
+          "p_value": 0.07367,
+          "significance": ""
+        },
+        {
+          "variable": "dev_rr",
+          "coef": 0.0018,
+          "std_err": 0.0017,
+          "t_stat": 1.055,
+          "p_value": 0.29201,
+          "significance": ""
+        },
+        {
+          "variable": "fd_gsdp",
+          "coef": 0.0024,
+          "std_err": 0.0072,
+          "t_stat": 0.337,
+          "p_value": 0.73652,
+          "significance": ""
+        },
+        {
+          "variable": "covid_shock",
+          "coef": 0.0685,
+          "std_err": 0.0136,
+          "t_stat": 5.028,
+          "p_value": 0.0,
+          "significance": "***"
+        }
+      ],
+      "random_effects_results": [
+        {
+          "variable": "ln_gsdp_pc",
+          "coef": 1.1295,
+          "std_err": 0.0225,
+          "z_stat": 50.135,
+          "p_value": 0.0,
+          "significance": "***"
+        },
+        {
+          "variable": "otr_gsdp",
+          "coef": -0.0223,
+          "std_err": 0.0084,
+          "z_stat": -2.662,
+          "p_value": 0.00776,
+          "significance": "**"
+        },
+        {
+          "variable": "dev_rr",
+          "coef": 0.0075,
+          "std_err": 0.001,
+          "z_stat": 7.396,
+          "p_value": 0.0,
+          "significance": "***"
+        },
+        {
+          "variable": "fd_gsdp",
+          "coef": 0.0019,
+          "std_err": 0.0074,
+          "z_stat": 0.251,
+          "p_value": 0.80193,
+          "significance": ""
+        },
+        {
+          "variable": "covid_shock",
+          "coef": 0.0662,
+          "std_err": 0.0139,
+          "z_stat": 4.75,
+          "p_value": 0.0,
+          "significance": "***"
+        }
+      ],
+      "hausman_test": {
+        "chi2_stat": 27.753,
+        "df": 5,
+        "p_value": 4e-05,
+        "preferred_model": "Fixed Effects (FE)",
+        "interpretation": "FE is preferred because individual state effects are correlated with regressors (p < 0.05)"
+      }
+    },
+    "sse_te": {
+      "dep_var": "sse_te",
+      "sample_size": 403,
+      "num_states": 31,
+      "num_regressors": 5,
+      "within_r2": 0.6831,
+      "fixed_effects_results": [
+        {
+          "variable": "ln_gsdp_pc",
+          "coef": 8.0756,
+          "std_err": 0.6223,
+          "t_stat": 12.977,
+          "p_value": 0.0,
+          "significance": "***"
+        },
+        {
+          "variable": "otr_gsdp",
+          "coef": -0.3627,
+          "std_err": 0.1766,
+          "t_stat": -2.054,
+          "p_value": 0.0407,
+          "significance": "*"
+        },
+        {
+          "variable": "dev_rr",
+          "coef": 0.0624,
+          "std_err": 0.0364,
+          "t_stat": 1.715,
+          "p_value": 0.08722,
+          "significance": ""
+        },
+        {
+          "variable": "fd_gsdp",
+          "coef": 0.1058,
+          "std_err": 0.1513,
+          "t_stat": 0.699,
+          "p_value": 0.48499,
+          "significance": ""
+        },
+        {
+          "variable": "covid_shock",
+          "coef": 2.8783,
+          "std_err": 0.2852,
+          "t_stat": 10.093,
+          "p_value": 0.0,
+          "significance": "***"
+        }
+      ],
+      "random_effects_results": [
+        {
+          "variable": "ln_gsdp_pc",
+          "coef": 6.9643,
+          "std_err": 0.4834,
+          "z_stat": 14.406,
+          "p_value": 0.0,
+          "significance": "***"
+        },
+        {
+          "variable": "otr_gsdp",
+          "coef": -0.3541,
+          "std_err": 0.175,
+          "z_stat": -2.024,
+          "p_value": 0.043,
+          "significance": "*"
+        },
+        {
+          "variable": "dev_rr",
+          "coef": 0.1113,
+          "std_err": 0.0224,
+          "z_stat": 4.967,
+          "p_value": 0.0,
+          "significance": "***"
+        },
+        {
+          "variable": "fd_gsdp",
+          "coef": 0.0959,
+          "std_err": 0.1541,
+          "z_stat": 0.623,
+          "p_value": 0.53352,
+          "significance": ""
+        },
+        {
+          "variable": "covid_shock",
+          "coef": 2.8665,
+          "std_err": 0.2901,
+          "z_stat": 9.88,
+          "p_value": 0.0,
+          "significance": "***"
+        }
+      ],
+      "hausman_test": {
+        "chi2_stat": 22.87,
+        "df": 5,
+        "p_value": 0.00036,
+        "preferred_model": "Fixed Effects (FE)",
+        "interpretation": "FE is preferred because individual state effects are correlated with regressors (p < 0.05)"
+      }
+    }
+  }
+}
